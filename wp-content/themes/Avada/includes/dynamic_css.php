@@ -7970,7 +7970,7 @@ function avada_dynamic_css_array() {
 			$css['global'][ avada_implode( $elements ) ]['line-height'] = '63px';
 			$css['global'][ avada_implode( $elements ) ]['text-align']  = 'center';
 			$css['global'][ avada_implode( $elements ) ]['font-size']   = '25px';
-			$css['global'][ avada_implode( $elements ) ]['font-family'] = "'icomoon'";
+			$css['global'][ avada_implode( $elements ) ]['font-family'] = "icomoon";
 
 			$css['global']['.rev_slider_wrapper .rev_slider .tp-leftarrow.tparrows:before']['margin-left']  = '-2px';
 
@@ -8505,7 +8505,7 @@ function avada_dynamic_css_array() {
 		$css['global']['.fusion-hide-pagination-text .pagination-prev:before, .fusion-hide-pagination-text .pagination-next:after']['position'] = 'relative';
 		$css['global']['.fusion-hide-pagination-text .pagination-prev:before, .fusion-hide-pagination-text .pagination-next:after']['margin'] = '0';
 		$css['global']['.fusion-hide-pagination-text .pagination-prev:before, .fusion-hide-pagination-text .pagination-next:after']['padding'] = '0';
-		
+
 		$css['global']['.fusion-hide-pagination-text .pagination-next:after']['right'] = 'auto';
 
 		if ( class_exists( 'WooCommerce' ) ) {
@@ -8518,7 +8518,7 @@ function avada_dynamic_css_array() {
 			$css['global']['.fusion-hide-pagination-text .woocommerce-pagination .prev:before, .fusion-hide-pagination-text .woocommerce-pagination .next:after']['margin'] = '0';
 			$css['global']['.fusion-hide-pagination-text .woocommerce-pagination .prev:before, .fusion-hide-pagination-text .woocommerce-pagination .next:after']['padding'] = '0';
 		}
-		
+
 		if ( class_exists( 'bbPress' ) ) {
 			$css['global'][ '.fusion-hide-pagination-text  .bbp-pagination-links .page-text' ]['display'] = 'none';
 			$css['global']['.fusion-hide-pagination-text .bbp-pagination-links .pagination-prev, .fusion-hide-pagination-text .bbp-pagination-links .pagination-next']['border-width'] = '1px';
@@ -8529,7 +8529,7 @@ function avada_dynamic_css_array() {
 			$css['global']['.fusion-hide-pagination-text .bbp-pagination-links .pagination-prev:before, .fusion-hide-pagination-text .bbp-pagination-links .pagination-next:after']['position'] = 'relative';
 			$css['global']['.fusion-hide-pagination-text .bbp-pagination-links .pagination-prev:before, .fusion-hide-pagination-text .bbp-pagination-links .pagination-next:after']['margin'] = '0';
 			$css['global']['.fusion-hide-pagination-text .bbp-pagination-links .pagination-prev:before, .fusion-hide-pagination-text .bbp-pagination-links .pagination-next:after']['padding'] = '0';
-		}	
+		}
 	}
 
 	// Animations
